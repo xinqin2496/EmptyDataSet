@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DetailViewController.h
 //  空白数据显示界面
 //
 //  Created by 郑文青 on 2017/6/28.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface DetailViewController : UITableViewController
 
-
+@property (nonatomic,assign)NSInteger row;
 @end
-
